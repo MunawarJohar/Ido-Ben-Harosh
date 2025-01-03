@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dev By Gal</title>
+  <link rel="icon" href="./images/favicon.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <section>
+    <!--
+    NAV-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html" style="font-size: 30px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 700; color: transparent; text-transform: uppercase; letter-spacing: 3px; text-decoration: none; transition: all 0.4s ease-in-out; padding: 12px 30px; border-radius: 8px; background: linear-gradient(135deg, #4e73df, #1cc88a); -webkit-background-clip: text; background-clip: text; display: inline-block;">
+          Ido Ben Harosh
+        </a>
+        
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li>
+              <a href="./index.html" class="nav-link text-white px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-house-door" viewBox="0 0 16 16">
+                  <path
+                    d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4z" />
+                </svg>
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#projects" class="nav-link text-white px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-code-slash" viewBox="0 0 16 16">
+                  <path
+                    d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0" />
+                </svg>
+                Projects
+              </a>
+            </li>
+            <li>
+              <a href="#Briefly" class="nav-link text-white px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-person-circle" viewBox="0 0 16 16">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                  <path fill-rule="evenodd"
+                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                </svg>
+                About Me
+              </a>
+            </li>
+            <li>
+              <button class="nav-link btn-primary px-2 talk-to-me">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-envelope" viewBox="0 0 16 16">
+                  <path
+                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                </svg>
+                Talk To Me
+              </button>
+
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <section>
+    <!-- About Me Section -->
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./images/profile.jpg" class="d-block mx-lg-auto img-fluid" alt="Ido Ben Harosh" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">About <span class="catchphrase" style="font-weight: bold;">Me</span></h1>
+          <p class="lead">Electrical Engineering student (B.Sc) in my 4th year, specializing in Hardware and Software. Passionate about teamwork and problem-solving projects, I am a highly motivated individual, eager to find the next opportunity in the electrical engineering field.</p>
+          <!-- <p class="lead">Email: <a href="mailto:idobh3866@gmail.com">idobh3866@gmail.com</a></p>
+          <p class="lead">Phone: <a href="tel:+972527532354">0527532354</a></p>
+          <p class="lead">LinkedIn: <a href="https://www.linkedin.com/in/ido-ben-harosh" target="_blank">LinkedIn Profile</a></p>
+          <p class="lead">GitHub: <a href="https://github.com/IdoBenHarosh" target="_blank">GitHub Profile</a></p> -->
+        </div>
+      </div>
+    </div>
+  
+    <!-- Education Section -->
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img width="80%" src="https://media.licdn.com/dms/image/v2/D4D0BAQGyEhwWRkHoDw/company-logo_100_100/company-logo_100_100/0/1699967811111/braude_academic_college_logo?e=1744243200&v=beta&t=NoSAQfHVPHK8L5zZMRyHN7-1iEh1XxWrFJqp4H1K9Xg" class="d-block mx-lg-auto img-fluid" alt="Afeka College" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">My <span class="catchphrase" style="font-weight: bold;">Studies</span></h1>
+          <p class="lead">As a fourth-year Electrical Engineering student at Ort Braude College, Karmiel, I specialize in both hardware and software. With courses such as <span style="font-weight: bold;">Digital Logic Systems, Operating Systems, Data Structures & Algorithms, MATLAB Applications in Electronics, RT -DSP, and VHDL Projects,</span> my studies have shaped my technical expertise in the field, preparing me for the challenges of the electrical engineering industry.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- 
+    SECTION: Footer Section-->
+    <section>
+      <!-- 
+      SECTION: Footer Section-->
+      <div class="p-5 text-center bg-body-tertiary footer-jumbotron">
+        <div class="container py-2">
+          <div class="container footer">
+            <footer class="py-3 my-4">
+              <a class="footer-brand" href="./index.html" style="font-size: 30px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 700; color: transparent; text-transform: uppercase; letter-spacing: 3px; text-decoration: none; transition: all 0.4s ease-in-out; padding: 12px 30px; border-radius: 8px; background: linear-gradient(135deg, #4e73df, #1cc88a); -webkit-background-clip: text; background-clip: text; display: inline-block;">
+                Ido Ben Harosh
+              </a>
+              
+              <ul class="nav justify-content-center border-bottom py-4 mb-3">
+                <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-body-secondary"
+                    style="color: white;">Home</a></li>
+                <li class="nav-item"><a href="./index.html#projects"
+                    class="nav-link px-2 text-body-secondary">Projects</a></li>
+                <li class="nav-item"><a href="./index.html#Briefly" class="nav-link px-2 text-body-secondary">About me</a>
+                </li>
+              </ul>
+  
+              <button class="btn btn-primary rounded-circle p-2 mx-0.5 lh-1 Linkedin" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                </svg>
+                <span class="visually-hidden">Dismiss</span>
+              </button>
+  
+  
+              <button class="btn btn-primary rounded-circle p-2 mx-0.5 lh-1 Whatsapp" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                </svg>
+                <span class="visually-hidden">Dismiss</span>
+              </button>
+  
+              <button class="btn btn-primary rounded-circle p-2 mx-0.5 lh-1 Github" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8" />
+                </svg>
+                <span class="visually-hidden">Dismiss</span>
+              </button>
+  
+              <button class="btn btn-primary rounded-circle p-2 mx-0.5 lh-1 Email" type="button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+                </svg>
+              </button>
+              <p class="mt-3 text-center text-body-secondary">© 2025</p>
+            </footer>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
